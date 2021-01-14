@@ -1,0 +1,82 @@
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50 px;
+}
+.origami{
+    border-radius: 20px;
+    background-color:#ffffff;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family: fantasy;
+}
+.menu{
+    color:#ffffff;
+    position: relative;
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    background-color:#000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-right: 30px;
+}
+.bodyimg{
+    color:white;
+}
+.top-center{
+    position:absolute;
+    top:25%;
+    bottom:75%;
+    left:45%
+    
+}
+body{
+    margin: 0px;
+    background-color:#f7f2f2;
+    font-family: 'Loopiejuice Regular';
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 15%;
+    font-family: 'Loopiejuice Regular';
+}
+.header{
+    padding: 1px;
+}
+.origami{
+    position: relative;
+  }
+  .origami p {
+      position :absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      opacity:0;
+  }
+  .origami:hover p {
+      opacity:1;
+  }
+  .origami:hover li {
+    opacity:1;
+  }
+  .origami li {
+    position :absolute;
+    top:80%;
+    left:50%;
+    transform: translate(-60%,-50%);
+    opacity:0;
+}
+  .origami:hover img {
+      opacity: 0.33;
+  }
